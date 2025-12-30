@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   reporter: "cypress-mochawesome-reporter",
-  projectId: "xpj6x1",
+  projectId: "toa1km",
 
   reporterOptions: {
     reportDir: "cypress/reports/json", // só JSON aqui
