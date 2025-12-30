@@ -14,7 +14,7 @@
 // O sistema deve barrar esse cadastro já que um dos campos obrigatórios não foi preenchido
 // Deve retornar uma mensagem "É necessário informar um endereço de email"
 
-describe("Verificação página inicial adobet", () => {
+describe("Verificação de cadastro incorreto de usuário", () => {
   it("Deve cadastrar o usuário de forma inadequada, sem preencher campos obrigatório como Email e senha.", () => {
     // ENTRA NO SITE ADOPET VIA LINK
     cy.visit("https://adopet-frontend-cypress.vercel.app/");

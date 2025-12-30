@@ -1,4 +1,4 @@
-describe("Verificação página inicial adobet", () => {
+describe("Verificação de cadastro adequado de usuário", () => {
   it("Deve cadastrar o usuário de forma adequada, preenchendo os campos corretamente.", () => {
     cy.visit("https://adopet-frontend-cypress.vercel.app/");
     cy.get('img[alt="Logo AdoPet"]').should("be.visible");
