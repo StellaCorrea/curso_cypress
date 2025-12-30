@@ -1,0 +1,24 @@
+{
+  "name": "curso_cypress",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run --reporter cypress-mochawesome-reporter",
+    "merge:reports": "npx mochawesome-merge cypress/reports/json/*.json > cypress/reports/final.json",
+    "generate:report": "npx marge cypress/reports/final.json -f final-report -o cypress/reports/html",
+    "test:report": "npm run cy:run && npm run merge:reports && npm run generate:report",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "npm": "^11.6.4"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.4",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "mochawesome": "^7.1.4"
+  }
+}
