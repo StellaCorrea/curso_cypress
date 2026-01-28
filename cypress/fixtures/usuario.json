@@ -1,0 +1,36 @@
+{
+  "usuarios": [
+    {
+      
+      "name": "Mariana Costa",
+      "email": "mariana.costa@teste.com",
+      "password": "Mariana123!"
+    },
+    {
+      "name": "Lucas Pereira",
+      "email": "lucas.pereira@teste.com",
+      "password": "Lucas12345"
+    },
+    {
+      "name": "Fernanda Alves",
+      "email": "fernanda.alves@teste.com",
+      "password": "Fer123456"
+    },
+    {
+      "name": "Rafael Nogueira",
+      "email": "rafael.nogueira@teste.com",
+      "password": "Rafael@2024"
+    },
+    {
+      "name": "Camila Rocha",
+      "email": "camila.rocha@teste.com",
+      "password": "Camila123"
+    },
+    {
+      "name": "Bruno Martins",
+      "email": "bruno.martins@teste.com",
+      "password": "Bruno123!"
+    }
+    
+  ]
+}
