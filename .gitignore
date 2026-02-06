@@ -1,7 +1,14 @@
-cypress/results/*
-cypress/reports/*
-cypress/screenshots/*
-cypress/videos/*
-node_modules/*
-cypress/reports/html/
+# Dependências
+node_modules/
+
+# Cypress
+cypress/results/
+cypress/reports/
+cypress/screenshots/
+cypress/videos/
+
+# Configurações sensíveis
+cypress.env.json
+
+# Arquivos locais
 terminal.md
